@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    font-family: 'Kufam', cursive;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quiz-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+    width: 600px;
+    max-width: 100%;
+}
+.quiz-header{
+    padding: 2rem;
+
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #fbc2eb;
+    border: none;
+    color: white;
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+button:hover{
+    outline: none;
+    background-color:#a6c1ee ;
+}
