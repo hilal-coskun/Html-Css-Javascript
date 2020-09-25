@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 18px;
+    color: rgb(250, 223, 187);
+    background-color: rgb(54, 10, 10);
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+}
