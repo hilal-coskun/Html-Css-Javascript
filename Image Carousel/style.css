@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+}
+
+.carousel{
+    height: 500px;
+    width: 500px;
+   /* overflow: hidden;*/
+    -webkit-box-shadow: 11px 17px 30px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 11px 17px 30px 0px rgba(0,0,0,0.5);
+     box-shadow: 11px 17px 30px 0px rgba(0,0,0,0.5);
+}
+
+.image-container{
+    display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
