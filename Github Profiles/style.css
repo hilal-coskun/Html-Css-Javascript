@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(136,6,19);
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input{
+    background-color: rgb(136,6,19);
+    border-radius: 10px;
+    padding: 0.6rem;
+    color: white;
+    border:none;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+input::placeholder{
+    color: rgb(214, 200, 200);
+}
+
+input:focus{
+    outline: none;
+}
+
+.card{
+    background: rgb(136,6,19);
+    background: linear-gradient(90deg, rgba(136,6,19,1) 5%, rgba(119,1,30,1) 40%);
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 26px 20px 46px 16px rgba(0,0,0,0.51);
+    -moz-box-shadow: 26px 20px 46px 16px rgba(0,0,0,0.51);
+    box-shadow: 26px 20px 46px 16px rgba(0,0,0,0.51);
+    max-width: 800px;
+    font-family: inherit;
+}
+/* 
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.avatar{
+    border-radius: 50%;
+    border: 10px solid rgb(136,6,19);
+    height: 150px;
+    width: 150px;
+}
+
+.user-info{
+    margin-left: 2rem;
+    color: rgb(214, 200, 200);
+}
+
+.user-info h2{
+    margin-top: 2rem;
+}
+
+.user-info ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+    list-style-type: none;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong{
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+}
+
+.repo{
+    background-color: rgb(136,6,19);
+    display: inline-block;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
